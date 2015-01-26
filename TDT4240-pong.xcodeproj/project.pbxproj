@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01204891A76D10B00C6CC2F /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012047D1A76D10B00C6CC2F /* CGFloat+Extensions.swift */; };
+		D012048A1A76D10B00C6CC2F /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012047E1A76D10B00C6CC2F /* CGPoint+Extensions.swift */; };
+		D012048B1A76D10B00C6CC2F /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D012047F1A76D10B00C6CC2F /* CGVector+Extensions.swift */; };
+		D012048C1A76D10B00C6CC2F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204801A76D10B00C6CC2F /* Int+Extensions.swift */; };
+		D012048D1A76D10B00C6CC2F /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204811A76D10B00C6CC2F /* SKAction+Extensions.swift */; };
+		D012048E1A76D10B00C6CC2F /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204821A76D10B00C6CC2F /* SKAction+SpecialEffects.swift */; };
+		D012048F1A76D10B00C6CC2F /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204831A76D10B00C6CC2F /* SKColor+Extensions.swift */; };
+		D01204901A76D10B00C6CC2F /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204841A76D10B00C6CC2F /* SKNode+Extensions.swift */; };
+		D01204911A76D10B00C6CC2F /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204851A76D10B00C6CC2F /* SKTAudio.swift */; };
+		D01204921A76D10B00C6CC2F /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204861A76D10B00C6CC2F /* SKTEffects.swift */; };
+		D01204931A76D10B00C6CC2F /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204871A76D10B00C6CC2F /* SKTTimingFunctions.swift */; };
+		D01204941A76D10B00C6CC2F /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204881A76D10B00C6CC2F /* Vector3.swift */; };
+		D01204961A76EDBC00C6CC2F /* WallNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01204951A76EDBC00C6CC2F /* WallNode.swift */; };
 		D07FC5291A718F3C00A1E9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC5281A718F3C00A1E9AE /* AppDelegate.swift */; };
 		D07FC52D1A718F3C00A1E9AE /* PongScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC52C1A718F3C00A1E9AE /* PongScene.swift */; };
 		D07FC52F1A718F3C00A1E9AE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC52E1A718F3C00A1E9AE /* GameViewController.swift */; };
@@ -15,6 +28,8 @@
 		D07FC5371A718F3C00A1E9AE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07FC5351A718F3C00A1E9AE /* LaunchScreen.xib */; };
 		D07FC5431A718F3C00A1E9AE /* TDT4240_pongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC5421A718F3C00A1E9AE /* TDT4240_pongTests.swift */; };
 		D07FC54D1A73A08D00A1E9AE /* BallSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC54C1A73A08D00A1E9AE /* BallSprite.swift */; };
+		D07FC54F1A73AA7100A1E9AE /* NetNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC54E1A73AA7100A1E9AE /* NetNode.swift */; };
+		D07FC5511A73B4E200A1E9AE /* PaddleSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC5501A73B4E200A1E9AE /* PaddleSprite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D012047D1A76D10B00C6CC2F /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		D012047E1A76D10B00C6CC2F /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		D012047F1A76D10B00C6CC2F /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		D01204801A76D10B00C6CC2F /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		D01204811A76D10B00C6CC2F /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		D01204821A76D10B00C6CC2F /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		D01204831A76D10B00C6CC2F /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		D01204841A76D10B00C6CC2F /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		D01204851A76D10B00C6CC2F /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		D01204861A76D10B00C6CC2F /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		D01204871A76D10B00C6CC2F /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		D01204881A76D10B00C6CC2F /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		D01204951A76EDBC00C6CC2F /* WallNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WallNode.swift; sourceTree = "<group>"; };
 		D07FC5231A718F3C00A1E9AE /* TDT4240-pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDT4240-pong.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07FC5271A718F3C00A1E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07FC5281A718F3C00A1E9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +68,8 @@
 		D07FC5411A718F3C00A1E9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D07FC5421A718F3C00A1E9AE /* TDT4240_pongTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDT4240_pongTests.swift; sourceTree = "<group>"; };
 		D07FC54C1A73A08D00A1E9AE /* BallSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallSprite.swift; sourceTree = "<group>"; };
+		D07FC54E1A73AA7100A1E9AE /* NetNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetNode.swift; sourceTree = "<group>"; };
+		D07FC5501A73B4E200A1E9AE /* PaddleSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddleSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D012047C1A76D10B00C6CC2F /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				D012047D1A76D10B00C6CC2F /* CGFloat+Extensions.swift */,
+				D012047E1A76D10B00C6CC2F /* CGPoint+Extensions.swift */,
+				D012047F1A76D10B00C6CC2F /* CGVector+Extensions.swift */,
+				D01204801A76D10B00C6CC2F /* Int+Extensions.swift */,
+				D01204811A76D10B00C6CC2F /* SKAction+Extensions.swift */,
+				D01204821A76D10B00C6CC2F /* SKAction+SpecialEffects.swift */,
+				D01204831A76D10B00C6CC2F /* SKColor+Extensions.swift */,
+				D01204841A76D10B00C6CC2F /* SKNode+Extensions.swift */,
+				D01204851A76D10B00C6CC2F /* SKTAudio.swift */,
+				D01204861A76D10B00C6CC2F /* SKTEffects.swift */,
+				D01204871A76D10B00C6CC2F /* SKTTimingFunctions.swift */,
+				D01204881A76D10B00C6CC2F /* Vector3.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
 		D07FC51A1A718F3C00A1E9AE = {
 			isa = PBXGroup;
 			children = (
@@ -84,10 +133,14 @@
 				D07FC5281A718F3C00A1E9AE /* AppDelegate.swift */,
 				D07FC52C1A718F3C00A1E9AE /* PongScene.swift */,
 				D07FC54C1A73A08D00A1E9AE /* BallSprite.swift */,
+				D07FC5501A73B4E200A1E9AE /* PaddleSprite.swift */,
+				D01204951A76EDBC00C6CC2F /* WallNode.swift */,
+				D07FC54E1A73AA7100A1E9AE /* NetNode.swift */,
 				D07FC52E1A718F3C00A1E9AE /* GameViewController.swift */,
 				D07FC5301A718F3C00A1E9AE /* Main.storyboard */,
 				D07FC5331A718F3C00A1E9AE /* Images.xcassets */,
 				D07FC5351A718F3C00A1E9AE /* LaunchScreen.xib */,
+				D012047C1A76D10B00C6CC2F /* SKTUtils */,
 				D07FC5261A718F3C00A1E9AE /* Supporting Files */,
 			);
 			path = "TDT4240-pong";
@@ -219,9 +272,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				D07FC54D1A73A08D00A1E9AE /* BallSprite.swift in Sources */,
+				D01204931A76D10B00C6CC2F /* SKTTimingFunctions.swift in Sources */,
 				D07FC52D1A718F3C00A1E9AE /* PongScene.swift in Sources */,
+				D012048B1A76D10B00C6CC2F /* CGVector+Extensions.swift in Sources */,
+				D012048A1A76D10B00C6CC2F /* CGPoint+Extensions.swift in Sources */,
+				D01204891A76D10B00C6CC2F /* CGFloat+Extensions.swift in Sources */,
+				D07FC5511A73B4E200A1E9AE /* PaddleSprite.swift in Sources */,
+				D01204911A76D10B00C6CC2F /* SKTAudio.swift in Sources */,
 				D07FC52F1A718F3C00A1E9AE /* GameViewController.swift in Sources */,
+				D01204901A76D10B00C6CC2F /* SKNode+Extensions.swift in Sources */,
+				D012048D1A76D10B00C6CC2F /* SKAction+Extensions.swift in Sources */,
+				D012048E1A76D10B00C6CC2F /* SKAction+SpecialEffects.swift in Sources */,
+				D07FC54F1A73AA7100A1E9AE /* NetNode.swift in Sources */,
 				D07FC5291A718F3C00A1E9AE /* AppDelegate.swift in Sources */,
+				D01204961A76EDBC00C6CC2F /* WallNode.swift in Sources */,
+				D01204921A76D10B00C6CC2F /* SKTEffects.swift in Sources */,
+				D012048C1A76D10B00C6CC2F /* Int+Extensions.swift in Sources */,
+				D01204941A76D10B00C6CC2F /* Vector3.swift in Sources */,
+				D012048F1A76D10B00C6CC2F /* SKColor+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +481,7 @@
 				D07FC5481A718F3C00A1E9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D07FC5491A718F3C00A1E9AE /* Build configuration list for PBXNativeTarget "TDT4240-pongTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +490,7 @@
 				D07FC54B1A718F3C00A1E9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
