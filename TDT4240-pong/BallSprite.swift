@@ -14,7 +14,8 @@ enum MissedState {
 }
 
 class BallSprite: SKSpriteNode {
-
+    var lastMissed = MissedState.None
+    
     override init() {
         let size = CGSizeMake(10, 10)
         super.init(texture: nil, color: UIColor.whiteColor(), size: size);
@@ -42,11 +43,21 @@ class BallSprite: SKSpriteNode {
     
     func isMissed() -> MissedState {
         if position.x < 0 {
+            lastMissed = .Left
             return .Left
         } else if (position.x > CGRectGetMaxX(parent!.frame)) {
+            lastMissed = .Right
             return .Right
         } else {
             return .None
+        }
+    }
+    
+    func serve() {
+        if lastMissed == .Left {
+            self.physicsBody!.applyImpulse(CGVectorMake(1, 1))
+        } else {
+            self.physicsBody!.applyImpulse(CGVectorMake(-1, -1))
         }
     }
 }
