@@ -8,20 +8,15 @@
 
 import SpriteKit
 
-enum PaddleSide {
-    case Left, Right
-}
-
-let paddleSidePadding = CGFloat(50.0)
+let paddleSidePadding = CGFloat(70.0)
 let paddleHeight: CGFloat = 50
 let paddleWidth: CGFloat = 10
-let maxBounceAngle: CGFloat = CGFloat(65).degreesToRadians()
-
+let maxBounceAngle: CGFloat = CGFloat(60).degreesToRadians()
 
 class PaddleSprite: SKSpriteNode {
-    let side: PaddleSide
+    let side: PlayerSide
     
-    init(side: PaddleSide) {
+    init(side: PlayerSide) {
         self.side = side
         
         let size = CGSizeMake(paddleWidth, paddleHeight)
