@@ -16,7 +16,7 @@ enum MissedState {
 class BallSprite: SKSpriteNode {
     var lastMissed = MissedState.None
     
-    override init() {
+    init() {
         let size = CGSizeMake(10, 10)
         super.init(texture: nil, color: UIColor.whiteColor(), size: size);
         

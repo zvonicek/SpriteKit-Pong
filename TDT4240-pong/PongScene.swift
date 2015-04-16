@@ -99,7 +99,7 @@ class PongScene: SKScene, SKPhysicsContactDelegate {
         stop()
     }
 
-    override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         if state == .Stopped {
             start()
         } else if state == .GameOver {
@@ -107,7 +107,7 @@ class PongScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
-    override func touchesMoved(touches: NSSet, withEvent event: UIEvent) {
+    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
         for touch: AnyObject in touches {
             let location = touch.locationInNode(self)
             let previousLocation = touch.previousLocationInNode(self)
